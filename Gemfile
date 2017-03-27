@@ -1,6 +1,9 @@
 source 'https://rubygems.org'
 
-
+gem 'pry'
+gem 'pry-nav'
+gem 'bootstrap-sass'
+gem 'autoprefixer-rails'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.7'
 # Use SCSS for stylesheets
@@ -33,6 +36,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
+  gem 'rspec-rails'
 end
 
 group :development do
